@@ -7,7 +7,7 @@ class App extends React.Component {
 
     componentDidMount() {
 
-      
+
         var todayElem = document.getElementById('today');
         var monthElem = document.getElementById('month');
         var yearElem = document.getElementById('year');
@@ -155,12 +155,12 @@ class App extends React.Component {
                             <div className="row">
                                 <div className="col-md-12 pb-3">
                                     <span className="footer-text-1">Energy Tip: </span><span className="footer-text-2">On warm days, setting a programmable thermostat to a higher setting when you are not at home can help reduce your energy costs
-                            by approximately 10 percent.</span>
+                                        by approximately 10 percent.</span>
                                 </div>
                             </div>
                             <div className="row">
                                 <div className="col-md-12 text-center pb-3">
-                                    <span style={{color: '#fff', fontSize: '0.9rem'}}>developed by softsasi</span>
+                                    <span style={{ color: '#fff', fontSize: '0.9rem' }}>Developed by <a href="https://www.softsasi.com" target="_blank" rel="noopener noreferrer" style={{ color: '#fff', textDecoration: 'underline' }}>Softsasi</a></span>
                                 </div>
                             </div>
 
